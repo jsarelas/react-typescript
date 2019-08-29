@@ -1,9 +1,17 @@
 import React from 'react';
+import User from '../../interfaces/user'
+
+const jason: User = {
+  id: "99@99@99",
+  firstName: "Jason",
+  lastName: "Sarelas",
+  email: "jsarelas@hotmail.com"
+}
 
 const Home = () => {
     return (
       <div>
-        Home Page
+        {jason.firstName} {jason.lastName} - {jason.email} - id: {jason.id}
       </div>
     );
   }
