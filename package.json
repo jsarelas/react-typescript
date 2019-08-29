@@ -19,7 +19,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "set-value": "^3.0.0",
-    "typescript": "^3.6.2",
+    "typescript": "^3.4.5",
     "utility-types": "^3.7.0"
   },
   "scripts": {

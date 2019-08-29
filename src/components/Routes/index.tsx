@@ -7,7 +7,7 @@ import Example from 'containers/Example';
 //import BasicHoc from '../../hoc/BasicHoc';
 import BasicHocES6 from 'hoc/BasicHoc/es6';
 import BasicRenderProps from 'renderProps/BasicRenderProps';
-import Declaritive from 'containers/Declaritive';
+import Declarative from 'containers/Declarative';
 
 const Routes = () => {
     return (
@@ -17,7 +17,7 @@ const Routes = () => {
             <Route path="/examples/" component={Example} />
             <Route path="/hocES6/" component={BasicHocES6} />
             <Route path="/renderprops/" component={BasicRenderProps} />
-            <Route path="/declaritive/" component={Declaritive} />
+            <Route path="/declaritive/" component={Declarative} />
         </Switch>
     )
 }

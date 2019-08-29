@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Declaritive = () => {
+const Declarative = () => {
     const numbers = [6,42,4,81,56,33];
     const totalNumbers = numbers.reduce((acc, nums) => acc + nums, 0);
     const maxNumber = numbers.reduce((max, num) => (max || 0) > num ? max : num, 0);
@@ -33,4 +33,4 @@ const Declaritive = () => {
     );
   }
   
-  export default Declaritive;
+  export default Declarative;
